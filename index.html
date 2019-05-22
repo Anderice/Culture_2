@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial="1">
+    <link href="css/style.css" rel="stylesheet">
+    <title>薪傳藝家</title>
+  </head>
+  <body>
+    <div class="form-contact" id="form-contact" onclick="leaveContact()"></div>
+    <div class="form-contact-content"><a href="#contact"><span class="form-cancel">&#10005;<a href="#contact"></a></span></a>
+      <div class="form-contact-intro">
+        <h2 class="display-2">聯絡我們</h2>
+        <h3 class="display-3">留下您的意見，幫助我們做得更好。</h3>
+      </div>
+      <lable>姓名</lable>
+      <input type="text" placeholder="您的姓名">
+      <lable>電子信箱</lable>
+      <input type="email" placeholder="您的電子信箱">
+      <lable>電話號碼</lable>
+      <input type="text" placeholder="您的電話號碼">
+      <label for="des">想說的話</label>
+      <textarea type="text" placeholder="您寶貴的意見"></textarea>
+      <botton class="btn btn--ghost-main btn--block" href="#contact" type="submit" onclick="send()">送出資料</botton>
+    </div>
+    <nav class="nav-main" id="navMain">
+      <div class="nav-left">
+        <div class="logo"><a href="#hero">薪傳藝家</a></div>
+        <ul class="list-main">
+          <li><a href="#about">何謂公藝</a></li>
+          <li><a href="#master">遇見大師</a></li>
+          <li><a href="#event">近期活動</a></li>
+          <li><a href="#contact">聯絡我們</a></li>
+        </ul>
+      </div>
+      <ul class="list-extra">
+        <li><a href="#footer-about">關於我們</a></li>
+        <li><a href="#footer-newsletter">電子報</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="hero"><img class="svg-bg svg-1" src="other/hero.svg"><span class="section-tag tag-1">Culture & Art In Taiwan　 ──　2018 / 11 / 21</span>
+      <div class="motion">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="half">
+              <div class="hero-content"><span class="section-bg-text bg-1">Cultrure &<br> Art</span>
+                <div class="hero-inner">
+                  <h2 class="display-1">百工之藝，<br>應運生活而生</h2>
+                  <h3 class="display-3">藝術與工藝的結合，創造不凡的價值</h3>
+                  <p>
+                    是否有注意到日常生活中的工藝品呢？實際上聽起來艱澀難懂的「工藝」事實上離我們再接進不過了。<br>
+<br>薪傳藝家是以推廣傳統工藝為主的網站，帶您了解工藝的奧妙之處。
+                  </p>
+                </div>
+                <div class="button-group"><a class="btn btn--ghost-main" href="#about">了解更多</a><a class="btn btn--ghost" href="#event">參加活動</a></div>
+              </div>
+            </div>
+            <div class="half">
+              <div class="hero-img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about"><img class="svg-bg svg-1" src="other/about.svg"><span class="section-tag tag-2">Culture & Art In Taiwan　 ──　2018 / 11 / 21</span>
+      <div class="motion">
+        <div class="container-fluid">
+          <div class="row flex-ali-start">
+            <div class="half">
+              <div class="photo-group">
+                <figure class="photo">
+                  <div class="photo-img"><img src="img/a1.jpg" alt=""></div>
+                  <figcaption>充滿古早味的磚房</figcaption>
+                </figure>
+                <figure class="photo">
+                  <div class="photo-img"><img src="img/p11.jpg" alt=""></div>
+                  <figcaption>精緻的木造工藝</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="half">
+              <div class="text-box text-box--right"><span class="section-bg-text bg-2">About culture</span>
+                <h2 class="display-2">何謂公藝</h2>
+                <h3 class="display-3">工藝是與生活緊不分離的一項元素</h3>
+                <p>
+                  手藝、技藝、手工技藝，亦自古所謂的「百工之藝」、「百工巧意」，隨著生活的需要應運而生，工藝品經過藝師的巧思表達傳遞了時代的背景與文化特色。</p>
+                <div class="pros">
+                  <div class="pro">
+                    <div class="pro-img"><img src="img/1/v1.jpg"></div>
+                    <div class="pro-content">
+                      <h3>壁畫</h3>
+                    </div>
+                  </div>
+                  <div class="pro">
+                    <div class="pro-img"><img src="img/2/v1.jpg"></div>
+                    <div class="pro-content">
+                      <h3>瓷器</h3>
+                    </div>
+                  </div>
+                  <div class="pro">
+                    <div class="pro-img"><img src="img/3/v1.jpg"></div>
+                    <div class="pro-content">
+                      <h3>木雕</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="master" id="master"><span class="section-tag tag-3">Culture & Art In Taiwan　 ──　2018 / 11 / 21</span>
+      <div class="motion">
+        <div class="container">
+          <div class="row">
+            <div class="half">
+              <div class="text-box text-box--left"><span class="section-bg-text bg-3">Meet Masters</span>
+                <h2 class="display-2">遇見大師</h2>
+                <h3 class="display-3">與現代手工藝大師見面，了解他們的豐功偉業</h3>
+                <p>不知道您有聽說過哪些臺灣本土的手工藝師傅呢？　我們整理了四位當代在臺最有名的工藝師傅，他們的專長雖不完全相同，但都對臺灣文藝活動、產業豎立了偉大的榜樣。</p>
+              </div>
+            </div>
+            <div class="half">
+              <div class="persons"><a class="person" href="#p1">
+                  <div class="person-img"><img src="img/1/p.jpg" alt=""></div>
+                  <div class="person-hide">
+                    <h3>漆工藝大師</h3>
+                    <h2>王清霜</h2>
+                  </div></a><a class="person" href="#p2">
+                  <div class="person-img"><img src="img/2/p.jpg" alt=""></div>
+                  <div class="person-hide">
+                    <h3>竹編工藝大師</h3>
+                    <h2>黃塗山</h2>
+                  </div></a><a class="person" href="#p3">
+                  <div class="person-img"><img src="img/3/p.jpg" alt=""></div>
+                  <div class="person-hide">
+                    <h3>木雕工藝大師</h3>
+                    <h2>施鎮洋</h2>
+                  </div></a><a class="person" href="#p4">
+                  <div class="person-img"><img src="img/4/p.jpg" alt=""></div>
+                  <div class="person-hide">
+                    <h3>佛寺彩繪大師</h3>
+                    <h2>李漢卿</h2>
+                  </div></a></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="person-info" id="p1">
+              <div class="info-left">
+                <div class="avatar"><img src="img/1/p.jpg" alt=""></div>
+                <h3>漆工藝大師</h3>
+                <h2 class="display-2">李漢卿</h2>
+                <p>顏水龍合作積極投入台灣當代工藝推展最重要的基礎扎根工作，由南投縣為草創起點，形成今日國立台灣工藝研究發展中心規模的先期耕耘工作，在台灣工藝發展史上留下永不磨滅的紀錄。</p>
+                <ul class="info-exp">
+                  <h3>生平經歷：</h3>
+                  <li>1922年生，居住南投縣草屯鎮，臺灣漆工藝大師。</li>
+                  <li>16歲考入私立台中工藝專修學校漆工科就讀</li>
+                  <li>19歲赴日本東京美術學校學藝</li>
+                </ul>
+                <ul class="info-prize">
+                  <h3>獎項：</h3>
+                  <li>2007 年，第 1 屆「國家工藝成就獎」</li>
+                </ul>
+              </div>
+              <div class="info-img-wrapper"><a class="info-img" href="/img/1/v1.jpg"><img src="img/1/v1.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>晨曦</h3>
+                      <li>創作年代/ 2002</li>
+                      <li>尺寸/ 75x63cm</li>
+                      <li>材質/ 天然漆、金箔、丸金、丸銀、貝殼</li>
+                      <li>技法/ 平蒔繪、鑲嵌</li>
+                    </ul>
+                  </div></a><a class="info-img" href="/img/1/v2.jpg"><img src="img/1/v2.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>排灣-豬牙帽</h3>
+                      <li>創作年代/ 2002</li>
+                      <li>尺寸/ 45x60cm</li>
+                      <li>材質/ 天然漆、金箔、丸金、丸銀、貝殼</li>
+                      <li>技法/ 平蒔繪、鑲嵌</li>
+                    </ul>
+                  </div></a></div>
+            </div>
+            <div class="person-info" id="p2">
+              <div class="info-left">
+                <div class="avatar"><img src="img/2/p.jpg" alt=""></div>
+                <h3>竹編工藝大師</h3>
+                <h2 class="display-2">黃塗山</h2>
+                <p>黃塗山對於台灣竹編工藝最大的貢獻，莫過於長期的人才培育，自民國 42 年擔任嘉義工藝專修班竹工部助理講師開始，迄今從未中斷傳習工作。</p>
+                <ul class="info-exp">
+                  <h3>生平經歷：</h3>
+                  <li>1926 年生，居住南投縣竹山鎮</li>
+                  <li>14 歲入日治時期的竹山郡竹材工藝傳習所習藝</li>
+                  <li>民國 62 年進入台灣手工業研究所</li>
+                </ul>
+                <ul class="info-prize">
+                  <h3>獎項：</h3>
+                  <li>2008 年，第 2 屆「國家工藝成就獎」</li>
+                </ul>
+              </div>
+              <div class="info-img-wrapper"><a class="info-img" href="/img/2/v1.jpg"><img src="img/2/v1.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>平竹矢紋花器</h3>
+                      <li>創作年代/ 1997</li>
+                      <li>尺寸/ 36x28x16cm</li>
+                      <li>材質/ 平竹</li>
+                      <li>技法/運用平竹矢紋裝飾，巧妙而精緻的布局，塗裝色彩隨著竹編織之紋理擁有著煙燻的妝容，帶著女性優雅的氣息，造型上柔中帶剛的韻味，顯現竹編的精緻生活工藝的價值。</li>
+                    </ul>
+                  </div></a><a class="info-img" href="/img/2/v2.jpg"><img src="img/2/v2.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>矢紋花器</h3>
+                      <li>創作年代/ 1996</li>
+                      <li>尺寸/ 47x28x15cm</li>
+                      <li>材質/ 桂竹</li>
+                      <li>技法/ 左右對稱的造型，藉矢紋紋飾 創造細緻精美的紋理，單一的材質、 單純的色彩，彰顯個人之頂真與古意 之精神，更能將整體造型的單純與精 細的竹編技藝表露無遺。</li>
+                    </ul>
+                  </div></a></div>
+            </div>
+            <div class="person-info" id="p3">
+              <div class="info-left">
+                <div class="avatar"><img src="img/3/p.jpg" alt=""></div>
+                <h3>木雕工藝大師</h3>
+                <h2 class="display-2">施鎮洋</h2>
+                <p>父親施坤玉為當代知名大木作師傅，施鎮洋自幼耳濡目染，開始接觸木工藝。稍長即跟隨父親到寺廟工地幫忙，在實地工作中學習成長。</p>
+                <ul class="info-exp">
+                  <h3>生平經歷：</h3>
+                  <li>1946 年生，居住彰化縣鹿港鎮。</li>
+                  <li>古物修復上，則以彰化元清觀之百年古轎，最能呈現其功力。</li>
+                  <li>古蹟修護方面，得意之作為鹿港城隍廟</li>
+                </ul>
+                <ul class="info-prize">
+                  <h3>獎項：</h3>
+                  <li>2009 年，第 3 屆「國家 工藝成就獎」、彰化縣傳 統藝術「傳統木雕」保存者。</li>
+                </ul>
+              </div>
+              <div class="info-img-wrapper"><a class="info-img" href="/img/3/v1.jpg"><img src="img/3/v1.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>富貴白頭</h3>
+                      <li>創作年代/ 2009</li>
+                      <li>尺寸/ 49x88.5x6cm</li>
+                      <li>材質/ 台灣牛樟、台灣檜木</li>
+                      <li>技法/ 透雕</li>
+                    </ul>
+                  </div></a><a class="info-img" href="/img/3/v2.jpg"><img src="img/3/v2.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>四季六屏</h3>
+                      <li>創作年代/ 2010</li>
+                      <li>尺寸/ 114x30x3cm</li>
+                      <li>材質/ 台灣牛樟、台灣檜木</li>
+                      <li>技法/ 陰刻技法、笑竹刻法</li>
+                    </ul>
+                  </div></a></div>
+            </div>
+            <div class="person-info" id="p4">
+              <div class="info-left">
+                <div class="avatar"><img src="img/4/p.jpg" alt=""></div>
+                <h3>漆工藝大師</h3>
+                <h2 class="display-2">李漢卿</h2>
+                <p>顏水龍合作積極投入台灣當代工藝推展最重要的基礎扎根工作，由南投縣為草創起點，形成今日國立台灣工藝研究發展中心規模的先期耕耘工作，在台灣工藝發展史上留下永不磨滅的紀錄。</p>
+                <ul class="info-exp">
+                  <h3>生平經歷：</h3>
+                  <li>1922年生，居住南投縣草屯鎮，臺灣漆工藝大師。</li>
+                  <li>16歲考入私立台中工藝專修學校漆工科就讀</li>
+                  <li>19歲赴日本東京美術學校學藝</li>
+                </ul>
+                <ul class="info-prize">
+                  <h3>獎項：</h3>
+                  <li>2007 年，第 1 屆「國家工藝成就獎」</li>
+                </ul>
+              </div>
+              <div class="info-img-wrapper"><a class="info-img" href="/img/4/v1.jpg"><img src="img/4/v1.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>晨曦</h3>
+                      <li>創作年代/ 2002</li>
+                      <li>尺寸/ 75x63cm</li>
+                      <li>材質/ 天然漆、金箔、丸金、丸銀、貝殼</li>
+                      <li>技法/ 平蒔繪、鑲嵌</li>
+                    </ul>
+                  </div></a><a class="info-img" href="/img/1/v2.jpg"><img src="img/1/v2.jpg" alt="">
+                  <div class="info-img-content">
+                    <ul>
+                      <h3>排灣-豬牙帽</h3>
+                      <li>創作年代/ 2002</li>
+                      <li>尺寸/ 45x60cm</li>
+                      <li>材質/ 天然漆、金箔、丸金、丸銀、貝殼</li>
+                      <li>技法/ 平蒔繪、鑲嵌</li>
+                    </ul>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="event" id="event">
+      <div class="motion">
+        <div class="container">
+          <div class="row flex-dir-col">
+            <div class="text-box text-center">
+              <h2 class="display-2">參加活動</h2>
+              <h3 class="display-3">薪傳藝家精心籌畫的臺灣工藝參訪活動</h3>
+            </div>
+            <div class="panel-group float-item">
+              <div class="panel">
+                <div class="panel-img"><img src="img/per.jpg" alt=""></div>
+                <div class="panel-content">
+                  <h4>即興古樂街頭歌唱、彈奏</h4>
+                  <h3 class="display-3">古物博物館探險</h3>
+                  <ul class="panel-info">
+                    <li>行程時間： 2天</li>
+                    <li>活動人數： 4 ~ 8人　</li>
+                    <li class="price">金額： 4500$NT</li>
+                  </ul>
+                  <p>一起進入傳統文物博物館，我們有專人幫助解說，讓您一同了解古典藝術的美妙。</p><a class="btn btn--ghost-main" href="#sign">我要參加</a>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-img"><img src="img/p15.jpg" alt=""></div>
+                <div class="panel-content">
+                  <h4>拜訪當地的古蹟</h4>
+                  <h3 class="display-3">古蹟巡察活動</h3>
+                  <ul class="panel-info">
+                    <li>活動人數： 4 ~ 8人　</li>
+                    <li>行程時間： 2天</li>
+                    <li class="price">金額： 4500$NT</li>
+                  </ul>
+                  <p>來報名參加傳統古蹟巡察活動，了解台灣各地的建築文化。 說到建築，你知道嗎？早期其實並沒有近代工具的幫助，但為了達成目的也成就出了各式特色技法。加入我們一起去遊賞大師的作品吧！</p><a class="btn btn--ghost-main" href="#sign">我要參加</a>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-img"><img src="img/mus.jpg" alt=""></div>
+                <div class="panel-content">
+                  <h4>到古物博物館了解古典的美妙</h4>
+                  <h3 class="display-3">即興古早樂器表演</h3>
+                  <ul class="panel-info">
+                    <li>活動人數： 4 ~ 8人　</li>
+                    <li>行程時間： 2天</li>
+                    <li class="price">金額： 4500$NT</li>
+                  </ul>
+                  <p>對古時候的樂器感到興趣嗎？對他們的音色感到好奇嗎？ 那報名這個活動絕對沒有錯！ 我們有聘請專人與您一起共享古早樂器的美妙</p><a class="btn btn--ghost-main" href="#sign">我要參加</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sign" id="sign">
+      <div class="motion">
+        <div class="container">
+          <div class="row">
+            <div class="sign-content">
+              <form class="sign-form">
+                <div class="sign-intro">
+                  <h2 class="display-2">報名活動</h2>
+                  <h3 class="display-3">購買薪傳藝家主辦活動</h3>
+                </div>
+                <div class="sign-content">
+                  <fieldset class="basic">
+                    <legend>基本資料</legend>
+                    <lable>姓名</lable>
+                    <input type="text" placeholder="您的姓名">
+                    <lable>電子信箱</lable>
+                    <input type="email" placeholder="您的電子信箱">
+                    <lable>電話號碼</lable>
+                    <input type="text" placeholder="您的電話號碼">
+                  </fieldset>
+                  <fieldset class="payment">
+                    <legend>繳費資訊</legend>
+                    <input id="visa" type="radio" name="pay-type">
+                    <label for="visa">Visa</label><br>
+                    <input id="mc" type="radio" name="pay-type">
+                    <label for="mc">MasterCard</label><br>
+                    <input id="jcb" type="radio" name="pay-type">
+                    <label for="jcb">JCB</label><br>
+                    <input id="paypal" type="radio" name="pay-type">
+                    <label for="paypal">Paypal</label><br>
+                    <lable>卡片號碼</lable>
+                    <input type="text" placeholder="您的姓名">
+                    <lable>安全碼</lable>
+                    <input type="email" placeholder="您的電子信箱">
+                    <lable>過期日期</lable>
+                    <input type="text" placeholder="您的電話號碼">
+                    <fieldset class="total">
+                      <legend>總金額</legend>
+                      <h3>八卦山大佛之旅</h3>
+                      <h2 class="price">總共：10400NT$</h2>
+                    </fieldset><a class="btn btn--ghost-main btn--block" onclick="send()">送出資料</a>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="half side-choice">
+            <div class="side-img"><img src="img/f1.jpg" alt=""></div>
+            <div class="side-content">
+              <h2 class="display-2">聯絡我們</h2>
+            </div>
+            <div class="side-hide">
+              <h2>聯絡我們</h2>
+              <h3>給予我們回饋，幫助我們做得更好。</h3><a class="btn btn--ghost-main btn--block btn--light" href="#form-contact">填寫表單</a>
+            </div>
+          </div>
+          <div class="half side-choice">
+            <div class="side-img"><img src="img/p06.jpg" alt=""></div>
+            <div class="side-content">
+              <h2 class="display-2">社群管道</h2>
+            </div>
+            <div class="side-hide">
+              <h2>社群管道</h2>
+              <h3>想要薪傳藝家更多資訊，請參訪我們的粉絲專頁。</h3><a class="btn btn--ghost-main btn--block btn--light" href="https://facebook.com">Facebook官方粉絲頁</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-content">
+            <div class="footer-item footer-about" id="footer-about">
+              <h2>關於我們</h2>
+              <div class="logo"><a href="#hero">薪傳藝家</a></div>
+              <p>薪傳藝家是一個以推廣藝家是一個以推廣藝家是一個以推廣藝家是一個以推廣藝家是一個以推廣藝家是一個以推廣</p><img class="qr" src="img/p23QRcode.jpg">
+              <ul class="footer-about-info">
+                <li>聯絡人：黃先生</li>
+                <li>地址：臺中市北屯區三光里九龍街31號2樓</li>
+                <li>電話：04-55166653</li>
+                <li>工作時段：周休二日 | 早上8:00 ~ 下午4:00</li>
+              </ul>
+            </div>
+            <div class="footer-item footer-nav">
+              <h2>快速導覽</h2>
+              <ul class="list-horiz">
+                <li><a href="#about">何謂公藝</a></li>
+                <li><a href="#master">遇見大師</a></li>
+                <li><a href="#event">近期活動</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+              </ul>
+            </div>
+            <div class="footer-item footer-newsletter" id="footer-newsletter">
+              <h2>訂閱電子報</h2>
+              <p>定閱我們每月一期的「工藝好報」，帶您瀏覽該月的文藝探險。</p>
+              <input type="text" placeholder="您的電子信箱">
+              <button class="btn btn--ghost-main btn--block" onclick="errror()">送出資料</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright"><small>薪傳藝家</small><br><small>2018 / 11 / 22 | All Right Reserved</small></div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
